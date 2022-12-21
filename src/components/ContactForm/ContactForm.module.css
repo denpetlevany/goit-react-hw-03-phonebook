@@ -1,0 +1,26 @@
+input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input:active, input:hover {
+    border-color: #0870d8;
+}
+
+.submitButton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #3e85cc;
+}
+
+.submitButton:hover{
+    cursor: pointer;
+background-color: rgb(82, 158, 101);
+}
